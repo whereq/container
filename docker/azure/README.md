@@ -7,9 +7,11 @@ docker build -t whereq/azure-func:1.0 -f ./dockerfile .
 
 ## Run
 **Run on windows**
+
 docker run -v %cd%/app:/app -it --entrypoint /bin/bash --name whereq-azure-func whereq/azure-func:1.0 
 
 **Run on linux**
+
 docker run -v $(pwd)/app:/app -it --entrypoint /bin/bash --name whereq-azure-func whereq/azure-func:1.0 
 
 ## Enter
