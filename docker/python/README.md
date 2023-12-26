@@ -21,6 +21,8 @@ docker exec -it whereq-python bash
 ```
 root@7c5f821681be:/# python --version
 Python 3.12.1
+(base) root@b4e800fc1be1:/# conda --version
+conda 23.7.4
 ```
 ```
 root@7c5f821681be:/# python /app/hw.py
